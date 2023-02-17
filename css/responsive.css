@@ -1,0 +1,109 @@
+@media (max-width: 945px) {
+
+  /* nav bar responsive start */
+    .hamburger{
+        margin-left: 150px;
+    }
+    
+    .searchBar {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 10px;
+      }
+      /* nav bar responsive end  */
+
+      .box {
+        width: 200px;
+        margin-top: 150px;
+        margin-left: -200px;
+        position: absolute;
+        padding: 20px;
+        background-color: #2596BE;
+        border-radius: 20px;
+      }
+
+      .testimonials{
+        margin-bottom: 20px;
+        display: flex;
+        overflow-x: auto;
+      }
+
+      /* footer responsive start */
+
+      footer {
+        height: 300px;
+        width: 100%;
+        background-color: #2596BE;
+      }
+
+      .footer-main-content{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: -300px;
+        background-color: #2596BE;
+      
+      }
+
+    
+      .lang-btn {
+        z-index: 3;
+        margin-top: -0px;
+        margin-left: 90%;
+      }
+
+      .signature {
+        margin-right: -450px;
+        margin-left: 10px;
+        z-index: 2;
+       
+        
+      }
+
+      .footer-contents{
+        margin-left: -150px;
+        margin-right: -0px;
+    }
+
+      .footer-contents-1 {
+        display: flex;
+        position: relative;
+        margin-top: 50px;
+        margin-left: 200px;
+    }
+
+    .footer-logo{
+        position: absolute;
+        margin-left: 130px;
+        margin-top: 80px;
+
+    }
+
+    .footer-logo img{
+        width: 100px;
+    }
+/* footer responsive end */
+
+}
+
+/*design for smartphones*/
+@media(max-width: 500px){
+     
+  .socials{
+      display: remove;
+  }
+
+  
+
+  .bottom{
+     display: none;
+  }
+  .divider{
+      display: none;
+  }
+  .hide-md-lg {
+      display: block;
+      text-align: center;
+    }
+}

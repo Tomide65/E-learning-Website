@@ -1,0 +1,236 @@
+.navbar{
+  background-color: #f5f5f5;
+  box-shadow: 2px 2px 10px #84d19f;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-buttons:hover{
+  color: red;
+}
+
+.searchBar {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+#searchQueryInput {
+    width: 100%;
+    height: 2.8rem;
+    background: #f5f5f5;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+  }
+
+#searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+#searchQuerySubmit:hover {
+    cursor: pointer;
+  }
+  
+
+.header{
+    height: 300px;
+    background-image: url("/images-courses/headerimg.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header h2{
+    margin-left: 600px;
+    padding-top: 150px;
+    color: white;
+    font-family: Tahoma;
+}
+.container h1{
+    padding-top: 40px;
+}
+.container .col-12 p{
+    font-size: 20px;
+
+}
+
+.web-dev{
+    height:1350px;
+    background-color:white;
+    
+}
+.web-dev .title-text h4{
+    color: darkgreen;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.web-dev .col-16 p{
+    font-size: 20px;
+}
+.vertical{
+    display: block;
+    padding-top: 50px;
+}
+.vertical .row-1{
+    display: flex;
+}
+.vertical .row-1 .col-md-4 .cours .img-responsive{
+    border-radius: 50%;
+}
+.vertical .row-1 .col-md-4 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+.vertical .row-1 .col-md-4 .btn a{
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.vertical .row-2{
+    display: flex;
+    padding-top: 70px;
+}
+.vertical .row-2 .col-md-4 .cours .img-responsive{
+    border-radius: 50%;
+}
+.vertical .row-2 .col-md-4 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+.vertical .row-2 .col-md-4 .btn a{
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.design{
+    height: 750px;
+    background-color: white;
+    padding-top: 50px;
+}
+.design .title-text h4{
+    color: darkgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 80px;
+}
+.design .col-16 p{
+    font-size: 20px;
+}
+.design .design-track .tracks{
+    display: flex;
+    padding-top: 50px;
+}
+.design-track .tracks .col-md-4 .cours .img-responsive{
+    border-radius: 50%;
+}
+.design-track .tracks .col-md-4 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+.design-track .tracks .col-md-4 .btn a{
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.data-analysis{
+    height: 1000px;
+    background-color:white;
+    padding-top: 80px;
+}
+.data-analysis .title-text h4{
+    color: rgb(42, 100, 42);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+}
+.data-analysis .col-16 p{
+    font-size: 20px;
+}
+.data-analysis .tracks{
+    padding-top: 50px;
+}
+.data-analysis .tracks .track-items{
+    display: flex;
+}
+.data-analysis .tracks .track-items .col-md-4 .cours .img-responsive{
+    border-radius: 50%;
+}
+.data-analysis .tracks .track-items .col-md-4 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+.data-analysis .tracks .track-items .col-md-4 .btn a{
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+footer {
+  height: 300px;
+  width: 100%;
+  background-color: #2596BE;
+}
+
+.footer-main-content{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: -300px;
+  margin-right: -0px;
+  background-color: #2596BE;
+
+}
+
+.footer-contents{
+    margin-left: -150px;
+    margin-right: -500px;
+}
+
+.footer-contents-1{
+  display: flex;
+  position: relative;
+  margin: 50px;
+  
+}
+
+.footer-contents-1 a{
+  color: black;
+}
+
+.footer-contents-1 a:hover{
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer-logo{
+  position: absolute;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: -300px ;
+}
+
+.lang-btn {
+  z-index: 2;
+  margin-top: -0px;
+  margin-left: 89rem;
+}
+
+.signature {
+  position: absolute;
+  margin-top: 200px;
+  margin-right: -0px;
+  margin-left: 82rem;
+  background-color: #2596BE;
+}
+

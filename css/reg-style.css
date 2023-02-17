@@ -1,0 +1,249 @@
+.navbar{
+  background-color: #f5f5f5;
+  box-shadow: 2px 2px 10px #84d19f;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-buttons:hover{
+  color: red;
+}
+
+.searchBar {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+#searchQueryInput {
+    width: 100%;
+    height: 2.8rem;
+    background: #f5f5f5;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 1rem;
+  }
+
+#searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+#searchQuerySubmit:hover {
+    cursor: pointer;
+  }
+
+
+h4{
+    color: purple;
+  }  
+
+
+nav{
+    background-color: rgb(8,244,244);
+    
+
+}
+
+
+
+
+.socials{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+ a:link {
+    text-decoration:none;
+    color: purple;
+}  
+
+header{
+  height: 500px;
+  background-image:url(https://t4.ftcdn.net/jpg/04/45/70/71/360_F_445707107_elptpcI7pUDPa9kMdnX9e3506QdHfo7r.jpg)
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.facebook { color: aqua;
+     background-color: aqua;
+
+}
+.twitter{ color: aqua;
+
+}
+.istragram { color: aqua;
+
+}
+
+   .divider{
+    position: absolute;
+    border-left:solid 4px aqua;
+    height:210px ;
+    margin-left: 280px;
+    margin-bottom:95px;
+    
+   }   
+   .fish{  
+    top:50%;
+    transform: translate(-50%, -50%);  
+    position: absolute;
+   background-color: aqua;
+   border: 1px solid #ccc;
+   border-radius: 50%;
+   padding: 11px;
+ } 
+
+
+.dotch{
+    margin-left: 150px;
+}
+   
+
+.start{
+    display: flex;
+   
+    
+}
+.col{
+    padding:20px 30px;
+}
+
+.container{
+    
+    height: 300px;
+    width: 600px;
+    background-color: purple;
+
+
+    
+
+}
+h3{
+    color: aqua;
+}
+h6{
+    color: aqua;
+}
+
+
+.to{
+    padding-top:20px ;
+    color: purple;
+}
+.container{
+    background-color:purple;
+    border: solid aqua 2px;
+    
+}
+.socials{
+    color: purple;
+}
+ .col:hover{
+    transform:white;
+    opacity: 4px;
+ }
+
+/*design for smartphones*/
+@media(max-width: 500px){
+     
+    .socials{
+        display: remove;
+    }
+
+    
+
+    .bottom{
+       display: none;
+    }
+    .divider{
+        display: none;
+    }
+    .hide-md-lg {
+        display: block;
+        text-align: center;
+      }
+}
+
+
+
+footer {
+  height: 300px;
+  width: 100%;
+  background-color: #2596BE;
+}
+
+.footer-main-content{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: -300px;
+  margin-right: -0px;
+  background-color: #2596BE;
+
+}
+
+.footer-contents{
+    margin-left: -150px;
+    margin-right: -500px;
+}
+
+.footer-contents-1{
+  display: flex;
+  position: relative;
+  margin: 50px;
+  
+}
+
+.footer-contents-1 a{
+  color: black;
+}
+
+.footer-contents-1 a:hover{
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer-logo{
+  position: absolute;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: -300px ;
+}
+
+.lang-btn {
+  z-index: 2;
+  margin-top: -0px;
+  margin-left: 89rem;
+}
+
+.signature {
+  position: absolute;
+  margin-top: 200px;
+  margin-right: -0px;
+  margin-left: 82rem;
+  background-color: #2596BE;
+}
+
